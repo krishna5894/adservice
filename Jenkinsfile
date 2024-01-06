@@ -12,7 +12,7 @@ labels:
 spec:
   containers:
   - name: gcloud-kubectl-docker
-    image: gcr.io/extended-arcana-408715/gcloud-kubectl-docker
+    image: gcr.io/extended-arcana-408715/adservice:latest
     command:
     - cat
     tty: true
