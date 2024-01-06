@@ -32,7 +32,7 @@ spec:
     stage('deployment'){
       steps{
         container('gcloud-kubectl-docker'){
-          sh"gcloud container clusters get-credentials cluster-2 --zone us-east1-b --project extended-arcana-408715"
+          sh"gcloud container clusters get-credentials mycluster --zone asia-east1-a --project extended-arcana-408715"
           sh"kubectl apply -f adservice.yaml"
 }
 }
