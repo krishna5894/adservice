@@ -41,7 +41,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: gcr.io/disco-domain-402111/adservice:latest
+        image: gcr.io/extended-arcana-408715/adservice:latest
         ports:
         - containerPort: 9555
         env:
